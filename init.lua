@@ -1,6 +1,6 @@
-local join_player_wellcome = minetest.settings:get("wellcome_message") or "Wellcome %s, have fun!"
-local new_player_boardcast = minetest.settings:get("new_player_boardcast") or "%s joined this game for the first time, wellcome!"
-local new_player_wellcome = minetest.settings:get("new_player_message") or "Wellcome %s! have fun!\nRules: https://toyshost2.ddns.net/city-rules\nOur website: https://toyshost2.ddns.net/mts"
+local join_player_wellcome = minetest.settings:get("wellcome_message") or "Welcome %s, have fun!"
+local new_player_boardcast = minetest.settings:get("new_player_boardcast") or "%s joined this game for the first time, welcome!"
+local new_player_wellcome = minetest.settings:get("new_player_message") or "Welcome %s! have fun!\nRules: https://toyshost2.ddns.net/mts/rules.html\nOur website: https://toyshost2.ddns.net/mts"
 
 -- minetest.chat_send_player(name, text)
 
